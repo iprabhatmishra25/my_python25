@@ -1,3 +1,4 @@
+# =====================================================================
 # 1. IMMUTABLE CONFIG TUPLE
 # =====================================================================
 # This tuple holds the inventory date, company name, and currency code.
@@ -7,14 +8,17 @@ asset_meta = ("2026-07-16", "GlobalCorp IT", "INR")
 # Unpack the tuple into three separate variables for headers
 inventory_date, company_name, currency = asset_meta
 
+
+# =====================================================================
 # 2. ASSETS LIST (Our master database)
 # =====================================================================
 # A list of dictionaries representing our IT assets.
+# (k = 6 assets used for this inventory)
 assets = [
     {
         "asset_id": "AST-101",
         "type": "laptop",
-        "owner": "Prabhat",
+        "owner": "Aarav",
         "location": "Mumbai",
         "purchase_year": 2023,
         "value_inr": 85000,
@@ -46,7 +50,7 @@ assets = [
     {
         "asset_id": "AST-105",
         "type": "laptop",
-        "owner": "Ayush",
+        "owner": "Kabir",
         "location": "Bengaluru",
         "purchase_year": 2025,
         "value_inr": 95000,
@@ -67,6 +71,8 @@ print(f"       {company_name.upper()} IT ASSET INVENTORY REPORT")
 print(f"       Date: {inventory_date} | Currency: {currency}")
 print("=" * 60)
 
+
+# =====================================================================
 # 3. GROUP BY TYPE (Dictionary of Lists)
 # =====================================================================
 # Initialize an empty list for each allowed asset type
@@ -82,6 +88,8 @@ print("\n[+] Assets Grouped by Type:")
 for asset_type, ids in grouped_by_type.items():
     print(f"  * {asset_type.capitalize()}: {ids}")
 
+
+# =====================================================================
 # 4. UNIQUE LOCATIONS (Sets)
 # =====================================================================
 # Using a set to automatically extract unique cities
@@ -97,6 +105,7 @@ print(f"  * Total Unique Locations: {len(locations_set)}")
 print(f"  * Cities: {', '.join(sorted_locations)}")
 
 
+# =====================================================================
 # 5. FINANCIAL SUMMARY
 # =====================================================================
 total_value = 0
@@ -131,6 +140,8 @@ print("  * Total Value by Type:")
 for asset_type, val in value_by_type.items():
     print(f"    - {asset_type.capitalize()}: {currency} {val:,}")
 
+
+# =====================================================================
 # 6. AGEING REPORT (List Comprehension)
 # =====================================================================
 # Extracts IDs of assets purchased before 2022 (older than 4 years in 2026)

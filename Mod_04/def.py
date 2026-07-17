@@ -1,7 +1,7 @@
-def check_system_health(server_name, cpu, mem, threshold=80):
+def GREET_USER(name):  # 1. 'def' starts the function, 'name' is the input (parameter)
+    message = f"HELLO, {name.upper()}!" # 2. The task it performs (output in CAPS!)
+    return message     # 3. 'return' sends the result back
 
-    """check the resources threshold"""
-
-    worst=max(cpu,mem)
-    return worst>=threshold
-print(check_system_health("server1", 70 ,80))
+# Calling the function:
+output = GREET_USER("clover")
+print(output)  
