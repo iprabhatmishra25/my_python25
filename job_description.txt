@@ -1,0 +1,4 @@
+Job Title: Python Developer
+Required Skills: Python, Django, SQL, REST API, Git
+Experience: 2+ years
+Location: Remote

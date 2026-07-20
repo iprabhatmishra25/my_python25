@@ -1,0 +1,56 @@
+Scan Report for: /home/clover/my_python25
+Target Extension: .py
+Generated On: 2026-07-20 14:11:53
+=================================================================
+File Name                           | Size (KB)  | Modified Date
+-----------------------------------------------------------------
+strings.py                          | 0.00       | 2026-07-09 10:17:09
+operators.py                        | 0.00       | 2026-07-09 10:16:59
+data_types.py                       | 0.00       | 2026-07-09 10:16:53
+variables.py                        | 0.00       | 2026-07-09 10:16:47
+def.py                              | 0.29       | 2026-07-17 10:44:10
+scope.py                            | 0.00       | 2026-07-18 10:25:47
+lambda.py                           | 0.00       | 2026-07-18 10:26:00
+return.py                           | 0.00       | 2026-07-18 10:25:34
+parameters.py                       | 0.10       | 2026-07-17 10:42:08
+import.py                           | 0.00       | 2026-07-18 10:26:14
+break_continue_pass.py              | 0.00       | 2026-07-09 10:27:18
+loop.py                             | 0.00       | 2026-07-09 10:26:52
+if_elif_else.py                     | 0.00       | 2026-07-09 10:25:50
+while.py                            | 0.00       | 2026-07-09 10:27:01
+rough.py                            | 0.64       | 2026-07-16 11:48:07
+tuple.py                            | 0.20       | 2026-07-16 11:40:34
+list.py                             | 3.30       | 2026-07-16 11:31:17
+sets.py                             | 0.00       | 2026-07-09 10:31:10
+dictionary.py                       | 0.00       | 2026-07-09 10:31:04
+IT_Assest.py                        | 4.96       | 2026-07-17 09:33:14
+duplicate_detetctors.py             | 1.11       | 2026-07-16 13:51:40
+fleet_grouper.py                    | 2.08       | 2026-07-16 16:44:23
+list_manipulation.py                | 0.90       | 2026-07-16 12:07:20
+server_record.py                    | 1.09       | 2026-07-16 13:38:10
+log_filter.py                       | 0.00       | 2026-07-09 10:29:12
+fizzbuzz_IT.py                      | 0.00       | 2026-07-09 10:29:00
+retry_counter.py                    | 0.00       | 2026-07-09 10:29:23
+pass_strength_check.py              | 0.00       | 2026-07-09 10:28:41
+server_health_report.py             | 0.00       | 2026-07-09 10:30:10
+bench_employee.py                   | 3.39       | 2026-07-20 11:06:32
+employee_skill_inventory.py         | 4.06       | 2026-07-20 10:50:45
+config_driver_directory_scan.py     | 2.07       | 2026-07-20 14:11:50
+incident_report.py                  | 2.76       | 2026-07-20 12:01:11
+JSON_to_do_list_manager.py          | 3.21       | 2026-07-20 12:16:53
+salary_band_classifier.py           | 2.20       | 2026-07-20 12:07:45
+lambda_sorter.py                    | 1.40       | 2026-07-17 11:23:29
+refactor_script.py                  | 1.10       | 2026-07-17 11:27:23
+pass_valid_fn.py                    | 1.18       | 2026-07-17 10:59:39
+data_utilities.py                   | 2.27       | 2026-07-17 11:13:49
+refactor_fraction.py                | 3.68       | 2026-07-17 16:23:51
+bench_status_checker.py             | 2.22       | 2026-07-17 16:23:14
+server_monitor_toolkit.py           | 5.16       | 2026-07-17 15:10:48
+email_addrss.py                     | 0.00       | 2026-07-09 10:21:10
+server_info.py                      | 0.00       | 2026-07-09 10:20:43
+log_line.py                         | 0.00       | 2026-07-09 10:23:04
+storage_cal.py                      | 0.00       | 2026-07-09 10:22:56
+employee_onboading.py               | 0.00       | 2026-07-09 10:24:02
+constant.py                         | 0.34       | 2026-07-16 11:17:42
+-----------------------------------------------------------------
+Total matching files found: 48

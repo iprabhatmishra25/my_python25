@@ -1,0 +1,10 @@
+EmpID,Name,Skills,BenchDays,LastProject
+E101,Rahul Sharma,"Python, SQL, Django",45,Project Orion
+E102,Priya Nair,"Java, Spring Boot",20,Project Falcon
+E103,Amit Verma,"React, Node.js, JavaScript",35,Project Titan
+E104,Sneha Patel,"Python, AWS, Docker",15,Project Apex
+E105,Vikram Singh,"C++, Linux, Shell",60,Project Legacy
+E106,Ananya Roy,"Data Science, R, Machine Learning",50,Project Insight
+E107,Karan Gupta,"Flutter, Android, Kotlin",10,Project Mobile
+E108,Meera Joshi,"SQL, PowerBI, Tableau",40,Project Analytics
+E105,Vikram Singh,"C++",60,PYTHON

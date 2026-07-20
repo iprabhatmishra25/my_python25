@@ -1,0 +1,14 @@
+===== Candidate Shortlist Report =====
+Job Title: Python Developer
+
+1. candidate3.txt - 100.0% match
+   Matched Skills: python, django, sql, rest api, git
+
+2. candidate1.txt - 80.0% match
+   Matched Skills: python, django, sql, git
+
+3. candidate5.txt - 60.0% match
+   Matched Skills: python, rest api, git
+
+4. candidate4.txt - 40.0% match
+   Matched Skills: python, sql
