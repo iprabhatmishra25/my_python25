@@ -56,7 +56,7 @@ def add_employee():
     with open("bench_employees.csv", "a", encoding="utf-8") as file:
         file.write(new_record)
 
-    print(f"\n✅ Employee '{name}' added successfully to bench_employees.csv!")
+    print(f"\n Employee '{name}' added successfully to bench_employees.csv!")
 
 if __name__ == "__main__":
     add_employee()
