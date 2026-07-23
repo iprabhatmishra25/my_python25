@@ -82,7 +82,7 @@ try:
     with open("long_bench_alert.txt", "w", encoding="utf-8") as file:
         file.writelines(long_bench_employees)
 
-    print("✅ Report generated! Check 'long_bench_alert.txt' for results.")
+    print("Report generated! Check 'long_bench_alert.txt' for results.")
     
     # Optional: Display output in console
     print("\n--- Long Bench Alert Content ---")
