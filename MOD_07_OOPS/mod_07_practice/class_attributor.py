@@ -1,7 +1,7 @@
 class BankAccount:
     total_accounts=0
 
-    
+
     def __init__(self, owner , balance=0):
         self.owner = owner
         self.balance = balance
@@ -30,3 +30,6 @@ acc3 = BankAccount("raj",180)
 print(acc1)
 print(acc2)
 print(acc3)
+
+print("\n--- Account Counter Verification ---")
+print(f"Total accounts created: {BankAccount.total_accounts}")
